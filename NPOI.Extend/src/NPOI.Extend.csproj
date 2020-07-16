@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net45;net451;net452</TargetFrameworks>
+    <Version>1.1.4</Version>
+    <Description>npoi extend library（基于作者源代码重新编译，支持.net45,.net451,.net452）因为项目的需要支持.net framework，无奈为之，望作者莫怪，在此表示感谢！谢谢！</Description>
+    <Copyright>Copyright 2019</Copyright>
+    <PackageLicenseUrl>https://github.com/hanzhaoxin/NPOI.Extend/blob/master/License.txt</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/hanzhaoxin/NPOI.Extend</PackageProjectUrl>
+    <PackageIconUrl>http://images.cnblogs.com/cnblogs_com/hanzhaoxin/638238/o_NPOIExtend.png</PackageIconUrl>
+    <PackageReleaseNotes>优化不必要的性能损失</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>ZZH.NPOI.Extend</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="NPOI.Extend.1.0.5.nupkg" />
+    <None Remove="NPOI.Extend.1.0.6.nupkg" />
+    <None Remove="NPOI.Extend.nuspec" />
+    <None Remove="第一步.bat" />
+    <None Remove="第三步.bat" />
+    <None Remove="第二步.bat" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NPOI" Version="2.4.1" />
+  </ItemGroup>
+
+</Project>

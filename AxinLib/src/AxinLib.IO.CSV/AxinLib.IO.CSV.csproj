@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFrameworks>netstandard2.0;net45;net451;net452</TargetFrameworks>
+    <Authors />
+    <PackageProjectUrl>https://github.com/hanzhaoxin/AxinLib</PackageProjectUrl>
+    <PackageIconUrl>http://images.cnblogs.com/cnblogs_com/hanzhaoxin/638238/o_csv.png</PackageIconUrl>
+    <Description>csv/tsv parser
+（基于作者源代码重新编译，支持.net45,.net451,.net452）因为项目的需要支持.net framework，无奈为之，望作者莫怪，在此表示诚挚的谢意！谢谢！</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>ZZH.AxinLib.IO.CSV</PackageId>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+</Project>

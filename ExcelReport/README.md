@@ -16,9 +16,7 @@ ExcelReport是一个Excel模板渲染引擎。 它基于关注点分离的理念
 ### 入门示例
 * 步骤一：新建入门项目QuickStart，并引入nuget包：
 
-->Install-Package ZZH.ExcelReport -Version 3.1.7
-
-->Install-Package ZZH.ExcelReport.Driver.NPOI -Version 2.0.4
+![image.png](https://cdn.nlark.com/yuque/0/2019/png/297115/1554000123061-20d4207c-58d3-4eb1-aeaa-0a8f7e3323ec.png#align=left&display=inline&height=69&name=image.png&originHeight=86&originWidth=936&size=4174&status=done&width=749)<br />![image.png](https://cdn.nlark.com/yuque/0/2019/png/297115/1554001512457-ed0bd004-a22d-47b2-ac0a-bdd673597144.png#align=left&display=inline&height=70&name=image.png&originHeight=87&originWidth=935&size=4451&status=done&width=748)
 
 * 步骤二：创建并编辑模板
 
@@ -95,5 +93,3 @@ public static class StudentLogic
 
 ### 联系我
 ![image.png](https://cdn.nlark.com/yuque/0/2019/png/297115/1556684663311-403a17ef-c19d-4f4e-8055-7f21044be0be.png)
-### 备注&说明
- 本项目是根据原作者的代码重新编译而成，以便于支持.net framework（.net45,.net451,.net452），因为项目需要实在乃无奈之举，望作者理解！也在此对作者表示诚挚的谢意！谢谢！

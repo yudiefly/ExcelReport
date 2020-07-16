@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFrameworks>netstandard2.0;net45;net451;net452</TargetFrameworks>
+    <Description>使用NPOI实现的ExcelReport驱动包
+（基于作者源代码重新编译，支持.net45,.net451,.net452）因为项目的需要支持.net framework，无奈为之，望作者莫怪，在此表示郑重的谢意！谢谢！</Description>
+    <Copyright>Copyright 2019</Copyright>
+    <PackageLicenseUrl>https://github.com/hanzhaoxin/ExcelReport/blob/master/License.txt</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/hanzhaoxin/ExcelReport</PackageProjectUrl>
+    <PackageIconUrl>http://images.cnblogs.com/cnblogs_com/hanzhaoxin/638238/o_ExcelReport.png</PackageIconUrl>
+    <PackageReleaseNotes>简单优化不必要的性能损失。</PackageReleaseNotes>
+    <Version>2.0.4</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyName>ExcelReport.Driver.NPOI</AssemblyName>
+    <PackageId>ZZH.ExcelReport.Driver.NPOI</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ExcelReport.Driver.NPOI.nuspec" />
+    <None Remove="ExcelReport.Driver.NPOIDriver.1.0.0.nupkg" />
+    <None Remove="ExcelReport.Driver.NPOIDriver.nuspec" />
+    <None Remove="第一步.bat" />
+    <None Remove="第三步.bat" />
+    <None Remove="第二步.bat" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NPOI" Version="2.4.1" />
+    <PackageReference Include="ZZH.ExcelReport.Driver" Version="2.0.1" />
+    <PackageReference Include="ZZH.NPOI.Extend" Version="1.1.4" />
+  </ItemGroup>
+
+</Project>
