@@ -9,7 +9,7 @@
     <PackageProjectUrl>https://github.com/hanzhaoxin/ExcelReport</PackageProjectUrl>
     <PackageIconUrl>http://images.cnblogs.com/cnblogs_com/hanzhaoxin/638238/o_ExcelReport.png</PackageIconUrl>
     <PackageReleaseNotes>简单优化不必要的性能损失。</PackageReleaseNotes>
-    <Version>2.0.4</Version>
+    <Version>2.0.5</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <AssemblyName>ExcelReport.Driver.NPOI</AssemblyName>
     <PackageId>ZZH.ExcelReport.Driver.NPOI</PackageId>
@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="NPOI" Version="2.4.1" />
+    <PackageReference Include="NPOI" Version="2.5.1" />
     <PackageReference Include="ZZH.ExcelReport.Driver" Version="2.0.1" />
     <PackageReference Include="ZZH.NPOI.Extend" Version="1.1.4" />
   </ItemGroup>

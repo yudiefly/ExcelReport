@@ -2,7 +2,7 @@
 
   <PropertyGroup>
 	  <TargetFrameworks>netstandard2.0;net45;net451;net452</TargetFrameworks>
-    <Version>3.1.7</Version>
+    <Version>3.1.9</Version>
     <Description>Excel 报表生成方案。
 （基于作者源代码重新编译，支持.net45,.net451,.net452）因为项目的需要支持.net framework，无奈为之，望作者莫怪，在此表示诚挚的谢意！谢谢！</Description>
     <Copyright>Copyright 2015</Copyright>

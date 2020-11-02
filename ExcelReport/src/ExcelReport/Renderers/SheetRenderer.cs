@@ -23,8 +23,17 @@ namespace ExcelReport.Renderers
             {
                 return;
             }
-            foreach (var renderer in RendererList.OrderBy(renderer => renderer.SortNum(worksheetContext)))
+            #region marked by on zzh203-2020-07-23-1734
+            //foreach (var renderer in RendererList.OrderBy(renderer => renderer.SortNum(worksheetContext)))
+            //{
+            //    renderer.Render(worksheetContext);
+            //}
+            #endregion
+
+            var renderer_sort_list = RendererList.OrderBy(renderer => renderer.SortNum(worksheetContext)).ToList();
+            for(int i=0;i< renderer_sort_list.Count; i++)
             {
+                var renderer = renderer_sort_list[i];
                 renderer.Render(worksheetContext);
             }
         }
